@@ -25,7 +25,7 @@ class Program
         var temperature = (double)temp;
         string celsiusTemp = (temperature - 273.15).ToString("0");
 
-        Console.WriteLine("The current weather is " + celsiusTemp + "°C");
+        Console.WriteLine("The current weather is " + celsiusTemp + "°C.");
         Console.ReadKey();
         Console.WriteLine("Done");
     }
